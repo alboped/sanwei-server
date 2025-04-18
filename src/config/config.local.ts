@@ -13,4 +13,11 @@ export default {
   security: {
     csrf: false,
   },
+  db: {
+    database: 'sanwei_admin',
+    host: 'rm-8vbyt8twdveod3581co.mysql.zhangbei.rds.aliyuncs.com',
+    port: '3306',
+    user: 'dms_user_f7554c6',
+    password: 'DWHxs125700',
+  },
 } as MidwayConfig & DefaultConfig;

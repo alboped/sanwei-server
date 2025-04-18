@@ -6,4 +6,9 @@ export class HomeController {
   async home() {
     return 'Hello Midwayjs!';
   }
+
+  @Get('/movie')
+  async movie() {
+    return '电影!';
+  }
 }
