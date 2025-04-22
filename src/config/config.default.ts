@@ -13,7 +13,8 @@ export default (appInfo: MidwayAppInfo) => {
     redis: {
       client: {
         port: 6379, // Redis port
-        host: '127.0.0.1', // Redis host
+        host: 'r-8vbkfj2r3298b52ut2.redis.zhangbei.rds.aliyuncs.com', // Redis host
+        username: 'sanwei_server',
         password: 'DWHxs512',
         db: 0,
       },

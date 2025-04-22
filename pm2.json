@@ -1,0 +1,18 @@
+{
+  "apps" : [{
+    "name"   : "sanwei-server",
+    "script" : "./bootstrap.js",
+    "cwd": "./",
+		"error_file": "./logs/err.log",
+		"out_file": "./logs/out.log",
+		"log_date_format": "YYYY-MM-DD HH:mm:SS",
+    "env_production": {
+      "PORT": 7001,
+      "NODE_ENV": "production"
+    },
+    "env_development": {
+      "PORT": 7001,
+      "NODE_ENV": "development"
+    }
+  }]
+}

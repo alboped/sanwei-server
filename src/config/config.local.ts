@@ -13,6 +13,15 @@ export default {
   security: {
     csrf: false,
   },
+  redis: {
+    client: {
+      port: 6379, // Redis port
+      host: '127.0.0.1', // Redis host
+      password: 'DWHxs512',
+      username: 'default',
+      db: 0,
+    },
+  },
   db: {
     database: 'sanwei_admin',
     host: 'rm-8vbyt8twdveod3581co.mysql.zhangbei.rds.aliyuncs.com',
